@@ -8,3 +8,76 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+
+.background{
+    background-color: #540B51;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    /* font-weight: lighter; */
+  }
+  body{
+    font-family: "Helvetica", sans-serif;
+  }
+#list-menu{
+    display: none;
+}
+
+/* styling Nav */
+
+#nav{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+#container-nav{
+    display: flex;
+}
+
+#container-nav-log img{
+    height: 30px;
+}
+
+#container-nav-search{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+#container-nav-search button{
+    all:unset;
+}
+
+/* styling Header */
+
+#header{
+    text-align: center;
+}
+#header h1{
+    color: white;
+    padding-top: 32px;
+    font-size: 3rem;
+}
+#header p{
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+mark{
+    all:unset;
+    color:#ECB12F;
+}
