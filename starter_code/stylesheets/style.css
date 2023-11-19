@@ -109,7 +109,7 @@ mark{
     color: white;
 }
 
-#header-signup-google-button > .image-wrapper {
+#header-signup-google-button > .image-container {
     box-sizing: border-box;
     top: 6px;
     left: 6px;
@@ -125,11 +125,83 @@ mark{
     height: 100%;
 }
 
-/* 
-tests
 #header-screenshot {
     width: 100%;
     height: 400px;
     object-fit: cover;
-    object-position: 0px 60px;
-} */
+    object-position: -20px 60px;
+}
+
+/* styling trusted-companies */
+#trusted-companies{
+    background-color: #F3EAE2;
+    padding:64px 32px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#trusted-companies > p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+#trusted-companies-container-imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#trusted-companies-container-imgs >img{
+   height: 45px; 
+}
+ /* styling Stats */
+#stats{
+    padding: 32px 16px;
+    text-align: center;
+}
+
+#stats > h3{
+    color: #540B51;
+    margin-top: 60px;
+    /* padding: 32px; */
+    font-size: 2.2rem;
+}
+#stats > p{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+#stats ul{
+    list-style: none;
+}
+#stats-list{
+
+}
+
+#stats-list span{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #540B51;
+}
+
+#stats-list > li {
+    width: calc(100% / 2);
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#stats-list p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+#stats-note{
+    color: #454245;
+    font-size: 0.9rem  !important;
+}
