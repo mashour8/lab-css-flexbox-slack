@@ -206,6 +206,7 @@ mark{
     font-size: 0.9rem  !important;
 }
 
+ /* styling Welcome */
 #welcome {
     display: flex;
     flex-direction: column;
@@ -239,3 +240,52 @@ mark{
     border: 1px solid white;
     color:white;
 }
+
+ /* styling Footer */
+ #footer {
+    padding: 32px 16px;
+ }
+
+ #footer > hr {
+    margin-bottom: 32px;
+    border: none;
+    height: 1px;
+    background-color: #454245;
+    opacity: 0.2;
+ }
+
+ #footer ul {
+    list-style: none;
+    display: flex;
+ }
+
+ #footer ul#footer-links {
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bold;
+ }
+
+ #footer ul#footer-social-media {
+    justify-content: space-between;
+    padding: 40px 0;
+ }
+
+ #footer ul#footer-social-media img {
+ }
+
+ #footer ul#footer-social-media i {
+    font-size: 25px;
+ }
+
+ #footer-region-button img, #footer-download-slack-button img {
+    margin-right: 8px;
+ }
+
+ #footer-download-slack-button {
+    color: #2E71A6;
+ }
+
+ #footer-copyright {
+    text-align: center;
+    color: #454245;
+ }
