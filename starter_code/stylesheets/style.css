@@ -317,6 +317,17 @@ mark {
     padding-bottom: 15%;
     gap: 40px;
   }
+  #header h1 {
+    width: 60%;
+  }
+  #header-slider-img {
+    display: flex;
+    align-items: center;
+  }
+  #header-screenshot {
+    object-position: 0px 0px;
+    height: 280px;
+  }
   #header h1,
   p {
     text-align: left;
