@@ -138,8 +138,8 @@ mark{
     padding:64px 32px;
     display: flex;
     flex-direction: column;
-    
 }
+
 #trusted-companies > p{
     text-align: center;
     font-size: 1rem;
@@ -274,7 +274,7 @@ mark{
  }
 
  #footer ul#footer-social-media i {
-    font-size: 25px;
+    font-size: 20px;
  }
 
  #footer-region-button img, #footer-download-slack-button img {
@@ -289,3 +289,58 @@ mark{
     text-align: center;
     color: #454245;
  }
+
+ /* @media (width > 768px and width < 1024px) {
+    background-color: ;;
+ } */
+
+ /*for test perpose  @media (width > 368px) and (width < 1024px) { */
+ @media (width > 768px) and (width < 1024px) {
+    #header{
+        /* text-align: left; */
+        /* background-color: #ECB12F; */
+        background-image: url("/images/background-singup.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50 50;
+        display: flex;
+        padding-bottom: 15%;
+        gap: 40px;
+    }
+    #header h1,p{
+        text-align: left;
+        padding-left: 20px;
+    }
+    #trusted-companies-container-imgs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 20px;
+        align-items: center;
+    }
+    #trusted-companies-container-imgs >img{
+        overflow: auto;
+        height: fit-content;
+    }
+
+    #stats-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    #welcome button{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #footer ul#footer-links {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #footer ul#footer-social-media {
+        padding-left: 10px;
+        justify-content: flex-start;
+        gap:70px;
+
+    }
+
+}
