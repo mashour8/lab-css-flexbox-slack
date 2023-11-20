@@ -54,6 +54,7 @@ body {
   padding: 24px;
   display: flex;
   align-items: center;
+  header: 52px;
 }
 
 #container-nav {
@@ -349,6 +350,12 @@ mark {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  #stats-list li {
+    width: 180px;
+    margin: 0;
   }
 
   #stats-list p {
@@ -451,5 +458,18 @@ mark {
 
   #footer-copyright {
     text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  #header {
+    height: calc(100vh - 100px);
+    padding: 0;
+  }
+
+  #header .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
