@@ -305,7 +305,7 @@ mark {
  } */
 
 /*for test perpose  @media (width > 368px) and (width < 1024px) { */
-@media (width > 768px) and (width < 1024px) {
+@media (width > 768px) {
   #header {
     /* text-align: left; */
     /* background-color: #ECB12F; */
@@ -329,7 +329,7 @@ mark {
     height: 280px;
   }
   #header h1,
-  p {
+  #header p {
     text-align: left;
     padding-left: 20px;
   }
@@ -350,17 +350,106 @@ mark {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
+  #stats-list p {
+    text-align: left;
+  }
+
   #welcome button {
     width: 80%;
     margin: 0 auto;
   }
   #footer ul#footer-links {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   #footer ul#footer-social-media {
     padding-left: 10px;
     justify-content: flex-start;
     gap: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #container-nav-log {
+    display: flex;
+  }
+  #list-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 28px;
+  }
+
+  #list-menu > li {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+
+  #list-menu > li > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #container-nav-search #nav-button-menu {
+    display: none;
+  }
+
+  #nav-buttons-auth {
+    display: flex;
+    list-style: none;
+  }
+
+  #nav-buttons-auth > li {
+    box-sizing: border-box;
+  }
+
+  #nav-buttons-auth > li > a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #nav-button-try {
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+  }
+
+  #nav-button-signin {
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-right: 30px;
+  }
+
+  #nav-button-try > a {
+    color: #540b51;
+    text-transform: uppercase;
+  }
+
+  #nav-button-signin > a {
+    color: white;
+    padding: 20px 0;
+  }
+
+  #welcome {
+    display: block;
+    text-align: center;
+  }
+
+  #welcome button {
+    display: inline-block;
+    width: 200px;
+    margin: 0 4px;
+  }
+
+  #footer {
+    padding: 32px;
+  }
+
+  #footer-copyright {
+    text-align: left;
   }
 }
